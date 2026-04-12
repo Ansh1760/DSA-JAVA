@@ -23,7 +23,11 @@ Time Complexity:
 */
 
 public class BubbleSortArray {
-
+   public static void printArray(int arr[]) {
+    for (int i = 0; i < arr.length; i++) {
+        System.out.print(arr[i]+" ");
+    }
+   }
     public static void main(String[] args) {
 
         // 🔹 Input array
@@ -53,9 +57,6 @@ public class BubbleSortArray {
         }
 
         // 🔹 Print sorted array
-        System.out.print("Sorted Array: ");
-        for (int num : arr) {
-            System.out.print(num + " ");
-        }
+       printArray(arr);
     }
 }
