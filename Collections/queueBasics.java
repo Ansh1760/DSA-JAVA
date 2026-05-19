@@ -17,7 +17,7 @@ public class queueBasics {
         q.add(10);
         q.add(20);
         q.add(101);
-        q.add(11);
+        
         q.add(14);
         q.add(108);
 
