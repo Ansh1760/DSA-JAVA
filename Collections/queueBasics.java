@@ -15,6 +15,7 @@ public class queueBasics {
 
         // Adding elements into first set
         q.add(10);
+        q.add(5);
         q.add(20);
         q.add(101);
         
