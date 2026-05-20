@@ -1,6 +1,6 @@
 public class MaxMinArray03 {
     public static void main(String[] args) {
-        int[] arr = {4,8,7,8,9,1};
+        int[] arr = {4,88,7,8,9,1};
         int max = arr[0];
         int min = arr[0];
 
